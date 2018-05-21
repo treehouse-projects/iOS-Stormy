@@ -15,6 +15,7 @@
 		BE45702320A326B4001FE65B /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702220A326B4001FE65B /* CurrentWeather.swift */; };
 		BE45702520A32C09001FE65B /* CurrentWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702420A32C09001FE65B /* CurrentWeatherViewModel.swift */; };
 		BE45702720B2F41F001FE65B /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702620B2F41F001FE65B /* JSONDownloader.swift */; };
+		BE45702920B2F971001FE65B /* DarkSkyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702820B2F971001FE65B /* DarkSkyError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BE45702220A326B4001FE65B /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		BE45702420A32C09001FE65B /* CurrentWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewModel.swift; sourceTree = "<group>"; };
 		BE45702620B2F41F001FE65B /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
+		BE45702820B2F971001FE65B /* DarkSkyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BE45702220A326B4001FE65B /* CurrentWeather.swift */,
 				BE45702420A32C09001FE65B /* CurrentWeatherViewModel.swift */,
 				BE45702620B2F41F001FE65B /* JSONDownloader.swift */,
+				BE45702820B2F971001FE65B /* DarkSkyError.swift */,
 			);
 			path = Stormy;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				972470B120A27F0000050DF7 /* ViewController.swift in Sources */,
 				BE45702320A326B4001FE65B /* CurrentWeather.swift in Sources */,
+				BE45702920B2F971001FE65B /* DarkSkyError.swift in Sources */,
 				BE45702720B2F41F001FE65B /* JSONDownloader.swift in Sources */,
 				972470AF20A27F0000050DF7 /* AppDelegate.swift in Sources */,
 				BE45702520A32C09001FE65B /* CurrentWeatherViewModel.swift in Sources */,
