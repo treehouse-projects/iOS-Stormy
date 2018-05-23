@@ -28,7 +28,7 @@ extension CurrentWeather {
         case "wind": return #imageLiteral(resourceName: "wind")
         case "fog": return #imageLiteral(resourceName: "fog")
         case "cloudy": return #imageLiteral(resourceName: "cloudy")
-        case "partly-cloudy-day": return #imageLiteral(resourceName: "partly-cloudy")
+        case "partly-cloudy-day": return #imageLiteral(resourceName: "partly-cloudy-day")
         case "partly-cloudy-night": return #imageLiteral(resourceName: "partly-cloudy-night")
         default: return #imageLiteral(resourceName: "default")
         }
