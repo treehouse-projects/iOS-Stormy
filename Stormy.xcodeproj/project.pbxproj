@@ -18,6 +18,7 @@
 		BE45702920B2F971001FE65B /* DarkSkyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702820B2F971001FE65B /* DarkSkyError.swift */; };
 		BE45702B20B5960C001FE65B /* DarkSkyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702A20B5960C001FE65B /* DarkSkyAPIClient.swift */; };
 		BE45702D20B59720001FE65B /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702C20B59720001FE65B /* Coordinate.swift */; };
+		BE45702F20B59D98001FE65B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45702E20B59D98001FE65B /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BE45702820B2F971001FE65B /* DarkSkyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyError.swift; sourceTree = "<group>"; };
 		BE45702A20B5960C001FE65B /* DarkSkyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAPIClient.swift; sourceTree = "<group>"; };
 		BE45702C20B59720001FE65B /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		BE45702E20B59D98001FE65B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				BE45702820B2F971001FE65B /* DarkSkyError.swift */,
 				BE45702A20B5960C001FE65B /* DarkSkyAPIClient.swift */,
 				BE45702C20B59720001FE65B /* Coordinate.swift */,
+				BE45702E20B59D98001FE65B /* Weather.swift */,
 			);
 			path = Stormy;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				BE45702320A326B4001FE65B /* CurrentWeather.swift in Sources */,
 				BE45702920B2F971001FE65B /* DarkSkyError.swift in Sources */,
 				BE45702D20B59720001FE65B /* Coordinate.swift in Sources */,
+				BE45702F20B59D98001FE65B /* Weather.swift in Sources */,
 				BE45702B20B5960C001FE65B /* DarkSkyAPIClient.swift in Sources */,
 				BE45702720B2F41F001FE65B /* JSONDownloader.swift in Sources */,
 				972470AF20A27F0000050DF7 /* AppDelegate.swift in Sources */,

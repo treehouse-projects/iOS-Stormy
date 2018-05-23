@@ -21,6 +21,16 @@ class DarkSkyAPIClient {
     
     func getCurrentWeather(at coordinate: Coordinate, completionHandler completion: @escaping CurrentWeatherCompletionHandler) {
         
+        guard let url = URL(string: coordinate.description, relativeTo: baseUrl) else {
+            completion(nil, .invalidUrl)
+            return
+        }
+        
+        let request = URLRequest(url: url)
+        
+        let task = downloader.jsonTask(with: request) { json, error in
+            
+        }
     }
 }
 
